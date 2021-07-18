@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
 	return (
-		<nav class="flex flex-wrap items-center justify-between p-5 bg-transparent">
+		<nav class="flex flex-wrap items-center justify-between p-5 mx-96 bg-transparent ">
 			<div class="flex md:hidden">
 				<button id="hamburger">
 					<img
@@ -19,11 +19,13 @@ function Navbar() {
 					/>
 				</button>
 			</div>
-			<div class="">ARDYUBANOS</div>
+			<div class="prose">
+				<h1>ARDYUBANOS</h1>
+			</div>
 			<div class="toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none">
 				<a
 					href="#"
-					class="block md:inline-block text-blue-900 hover:text-blue-500 px-3 py-3 border-b-2 border-blue-900 md:border-none"
+					class="block md:inline-block text-black hover:text-white px-3 py-3 border-b-2 border-blue-900 md:border-none"
 				>
 					Home
 				</a>
