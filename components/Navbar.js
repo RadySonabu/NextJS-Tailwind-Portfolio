@@ -22,12 +22,12 @@ function Navbar() {
 			<div class="prose">
 				<h1>ARDYUBANOS</h1>
 			</div>
-			<div class="toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none">
+			<div class="toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none prose">
 				<a
 					href="#"
 					class="block md:inline-block text-black hover:text-white px-3 py-3 border-b-2 border-blue-900 md:border-none"
 				>
-					Home
+					<h5>Home</h5>
 				</a>
 				<a
 					href="#"
