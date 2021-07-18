@@ -1,5 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
-export default function Home() {
-	return <div className="bg-yellow-500 h-screen">Home</div>;
+import Navbar from "../components/Navbar";
+export default function index() {
+	return (
+		<div class="bg-yellow-400 h-screen">
+			<Navbar />
+		</div>
+	);
 }
