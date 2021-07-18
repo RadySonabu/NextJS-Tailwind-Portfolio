@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 export default function index() {
 	return (
 		<div class="bg-yellow-400 h-screen">
-			<Navbar />
+			<Navbar textColor="text-black" hoverColor="text-white" />
 		</div>
 	);
 }
