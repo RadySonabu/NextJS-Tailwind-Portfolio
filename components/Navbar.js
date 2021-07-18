@@ -42,7 +42,7 @@ function Navbar({ textColor, hoverColor }) {
 				/>
 				<NavLinks
 					name="Contact"
-					redirect="#"
+					redirect="/contact"
 					textColor={textColor}
 					hoverColor={hoverColor}
 				/>
