@@ -5,7 +5,12 @@ import NavTitle from "./NavTitle";
 function Navbar({ textColor, hoverColor }) {
 	return (
 		<nav class="flex flex-wrap items-center justify-between p-5 lg:mx-96 md:mx-auto xs:mx-8 bg-transparent ">
-			<NavTitle name="ARDYUBANOS" redirect="/" />
+			<NavTitle
+				name="ARDYUBANOS"
+				redirect="/"
+				textColor={textColor}
+				hoverColor={hoverColor}
+			/>
 			<div class="flex md:hidden">
 				<button id="hamburger">
 					<img
@@ -31,7 +36,7 @@ function Navbar({ textColor, hoverColor }) {
 				/>
 				<NavLinks
 					name="Projects"
-					redirect="#"
+					redirect="/projects"
 					textColor={textColor}
 					hoverColor={hoverColor}
 				/>
