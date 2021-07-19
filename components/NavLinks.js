@@ -5,7 +5,7 @@ function NavLinks({ name, redirect, textColor, hoverColor }) {
 		<div>
 			<a
 				href={redirect}
-				class={` block md:inline-block ${textColor} hover:${hoverColor} px-3 py-3 border-b-2 border-blue-900 md:border-none  `}
+				className={` block md:inline-block ${textColor} hover:${hoverColor} px-3 py-3 border-b-2 border-blue-900 md:border-none  `}
 			>
 				<h4>
 					<b>{name}</b>

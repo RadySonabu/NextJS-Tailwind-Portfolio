@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 function projects() {
 	return (
-		<div class="bg-black h-screen">
+		<div className="bg-black h-screen">
 			<Navbar textColor="text-white" hoverColor="text-yellow-400" />
 		</div>
 	);
