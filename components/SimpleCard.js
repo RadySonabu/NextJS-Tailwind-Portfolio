@@ -18,6 +18,8 @@ function SimpleCard({ cardTitle, cardText }) {
 						alt="resume photo"
 						src="https://resumegenius.com/wp-content/uploads/2020/05/how-far-back-should-a-resume-go-graphic.png"
 						className="max-h-50 w-full object-fill"
+						height="200"
+						width="300"
 					/>
 
 					<div className="w-full">
