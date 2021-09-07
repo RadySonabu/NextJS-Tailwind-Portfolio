@@ -30,7 +30,7 @@ function Navbar({ textColor, hoverColor }) {
 					/>
 				</button>
 			</div>
-			<div className="toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none ">
+			<div className="toggle hidden md:flex w-full md:w-auto text-right text-bold mt-5 md:mt-0 border-t-2 border-blue-900 md:border-none space-x-4  ">
 				<NavLinks
 					name="About Me"
 					redirect="/about"

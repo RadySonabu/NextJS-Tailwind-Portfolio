@@ -7,7 +7,7 @@ function about() {
 			<Navbar textColor="text-black" hoverColor="text-blue-700" />
 			<div className="prose text-9xl text-center">
 				<h2>
-					<b>I'm Ardy Narvaez Ubanos</b>
+					<b>I am Ardy Narvaez Ubanos</b>
 				</h2>
 			</div>
 			<div className="text-4xl text-center">
