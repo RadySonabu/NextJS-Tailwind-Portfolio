@@ -5,7 +5,7 @@ function NavTitle({ name, redirect, textColor, hoverColor }) {
 		<div>
 			<a
 				href={redirect}
-				className={`text-4xl  block md:inline-block ${textColor} hover:${hoverColor}  px-3 py-3 border-b-2 border-blue-900 md:border-none`}
+				className={`text-1xl  block md:inline-block ${textColor} hover:${hoverColor}  px-3 py-3 border-b-2 border-blue-900 md:border-none`}
 			>
 				<h1>
 					<b>{name}</b>
