@@ -17,16 +17,19 @@ export default function index() {
 					cardTitle="Resume"
 					cardText="This is my updated resume. Feel free to view it."
 					imageUrl="https://resumegenius.com/wp-content/uploads/2020/05/how-far-back-should-a-resume-go-graphic.png"
+					externalUrl="https://django-ardy.s3.ap-northeast-1.amazonaws.com/Ardy-Ubanos-Resume.pdf"
 				/>
 				<SimpleCard
 					cardTitle="Github Repository"
 					cardText="This is my Github Repository. Feel free to view it."
 					imageUrl="https://kinsta.com/wp-content/uploads/2018/04/what-is-github-1-1.png"
+					externalUrl="https://github.com/RadySonabu"
 				/>
 				<SimpleCard
 					cardTitle="LinkedIn Profile"
 					cardText="This is my LinkedIn Profile. Feel free to view it."
 					imageUrl="https://denverdata.com/sites/default/files/linkedin-branding-CONTENT-2019.jpg"
+					externalUrl="https://www.linkedin.com/in/ardy-ubanos/"
 				/>
 			</div>
 			<div className="font-extrabold text-center pb-10 md:mt-10">

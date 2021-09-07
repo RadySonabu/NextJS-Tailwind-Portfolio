@@ -5,7 +5,7 @@ function about() {
 	return (
 		<div className="bg-white h-screen">
 			<Navbar textColor="text-black" hoverColor="text-blue-700" />
-			<div className=" text-9xl text-center">
+			<div className=" text-9xl text-center md:prose md:text-9xl">
 				<h2>
 					<b>I am Ardy Narvaez Ubanos</b>
 				</h2>

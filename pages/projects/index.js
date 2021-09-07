@@ -8,18 +8,13 @@ function projects() {
 		<div className="bg-black h-screen">
 			<Navbar textColor="text-white" hoverColor="text-yellow-400" />
 			<div className="grid grid-row-auto grid-flow-row  gap-1 justify-center  mt-5  md:grid-cols-auto md:grid-flow-col md:gap-4  md:mx-96 md:my-2">
-				{/* <SimpleCard
-					cardTitle="Backend Projects"
-					cardText="This is the list of the my projects where I utilized a backend technologies."
-					imageUrl="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
-				/> */}
 				<Card
 					title="Backend Projects"
 					content="Lorem ipsum dolor sit amet consectetur adipisicing elit.
 					Quae dolores deserunt ea doloremque natus error, rerum quas
 					odio quaerat nam ex commodi hic, suscipit in a veritatis
 					pariatur minus consequuntur!"
-					redirect="/projects/frontend"
+					redirect="/projects/backend"
 				/>
 				<Card
 					title="Frontend Projects"

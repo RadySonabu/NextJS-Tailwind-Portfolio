@@ -1,8 +1,11 @@
 import React from "react";
 import Image from "next/image";
-function SimpleCard({ cardTitle, cardText, imageUrl }) {
+function SimpleCard({ cardTitle, cardText, imageUrl, externalUrl }) {
+	const externalRedirect = () => {
+		window.open(externalUrl);
+	};
 	return (
-		<div>
+		<div onClick={externalRedirect}>
 			<div className="overflow-hidden shadow-lg rounded-lg h-auto w-80 md:w-80 cursor-pointer m-auto p-4 bg-indigo-50 transition duration-500 ease-in-out transform hover:translate-y-5 hover:shadow-2xl">
 				<a href="#" className="w-full block h-full">
 					<Image
