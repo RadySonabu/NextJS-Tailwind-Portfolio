@@ -1,9 +1,20 @@
-import Head from "next/head";
 import Navbar from "../components/Navbar";
 import SimpleCard from "../components/SimpleCard";
+import Head from "next/head";
 export default function index() {
 	return (
 		<div className="bg-yellow-400 h-full md:h-screen">
+			<Head>
+				<title>Ardy Ubanos</title>
+				<meta
+					name="viewport"
+					content="initial-scale=1.0, width=device-width"
+				/>
+				<meta
+					name="description"
+					content="Ardy Ubanos website and electronic profile"
+				/>
+			</Head>
 			<Navbar textColor="text-black" hoverColor="text-white" />
 			<div className="font-extrabold text-center md:mt-10">
 				<div className="text-2xl md:text-6xl">I am a </div>

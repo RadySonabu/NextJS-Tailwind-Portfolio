@@ -35,7 +35,7 @@ export default function Navbar({ textColor, hoverColor }) {
 							<div className="flex-1 flex items-center justify-center md:items-stretch md:justify-between">
 								<div className="flex-shrink-0 flex items-center">
 									<NavTitle
-										name="ARDYUBANOS"
+										name="ARDY UBANOS"
 										redirect="/"
 										textColor={textColor}
 										hoverColor={hoverColor}
