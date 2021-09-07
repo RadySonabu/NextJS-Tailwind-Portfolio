@@ -7,6 +7,7 @@ module.exports = {
 			"images.unsplash.com",
 			"kinsta.com",
 			"denverdata.com",
+			"django-ardy.s3.ap-northeast-1.amazonaws.com",
 		],
 	},
 };
