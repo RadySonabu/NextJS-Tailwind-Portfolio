@@ -15,8 +15,8 @@ function about() {
 			</div>
 			<div className="prose text-6xl text-center">
 				<h4>
-					I'm interested in basketball, coding, AI/ML, Data Science,
-					Gaming, Movie Marathon
+					I&apos;m interested in basketball, coding, AI/ML, Data
+					Science, Gaming, Movie Marathon
 				</h4>
 			</div>
 		</div>
