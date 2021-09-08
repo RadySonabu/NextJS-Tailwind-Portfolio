@@ -13,6 +13,12 @@ function about() {
 			<div className="text-4xl text-center">
 				<h5>I have a degree in Food and Computer Science</h5>
 			</div>
+			<div className="prose text-6xl text-center">
+				<h4>
+					I'm interested in basketball, coding, AI/ML, Data Science,
+					Gaming, Movie Marathon
+				</h4>
+			</div>
 		</div>
 	);
 }
