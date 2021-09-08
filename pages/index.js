@@ -28,7 +28,7 @@ export default function index() {
 					cardTitle="Resume"
 					cardText="This is my updated resume. Feel free to view it."
 					imageUrl="https://resumegenius.com/wp-content/uploads/2020/05/how-far-back-should-a-resume-go-graphic.png"
-					externalUrl="https://django-ardy.s3.ap-northeast-1.amazonaws.com/Ardy-Ubanos-Resume.pdf"
+					externalUrl="https://django-ardy.s3.ap-northeast-1.amazonaws.com/Ardy-Ubanos-Resume-2.pdf"
 				/>
 				<SimpleCard
 					cardTitle="Github Repository"
